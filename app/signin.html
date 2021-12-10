@@ -28,39 +28,40 @@
     <div class="content">
         <div class="login-box">
             <h2>Registro</h2>
-            <form action="">
+            <form action="../app/index.html" id="formulario">
                 <div class="user-box">
-                    <input type="text" name="Nombre" required>
+                    <input class="formulario__input" type="text" name="Nombre" id="Nombre" required>
                     <label>Nombre:</label>
                 </div>
                 <div class="user-box">
-                    <input type="text" name="Apellido" required>
+                    <input class="formulario__input" type="text" name="Apellido" id="Apellido" required>
                     <label>Apellido:</label>
                 </div>
                 <div class="user-box">
-                    <input type="email" name="Correo" required>
+                    <input class="formulario__input" type="email" name="Correo" id="Correo" required>
                     <label>Correo:</label>
                 </div>
                 <div class="user-box">
-                    <input type="number" name="Telefono" required>
+                    <input class="formulario__input" type="number" name="Telefono" id="Telefono" required>
                     <label>Teléfono:</label>
                 </div>
                 <div class="user-box">
-                    <input type="number" name="Edad" required>
+                    <input class="formulario__input" type="number" name="Edad" id="Edad" required>
                     <label>Edad:</label>
                 </div>
                 <div class="user-box">
-                    <input type="text" name="usuario" required>
+                    <input class="formulario__input" type="text" name="Usuario" id="Usuario" required>
                     <label>Usuario:</label>
                 </div>
                 <div class="user-box">
-                    <input type="password" name="Contraseña" required>
+                    <input class="formulario__input" type="password" name="Contraseña" id="Contraseña" required>
                     <label>Contraseña:</label>
                 </div>
                 <input class="btnEnviar" type="submit" Enviar>
             </form>
         </div>
     </div>
+    <script src="../app/scripts/validar.js"></script>
 </body>
 
 </html>
