@@ -1,6 +1,6 @@
 
 .boton {
-    background-color: #171614;
+    background-color: #24282f;
     color: #cf0e4f;
     font-size: 25px;
     size: 70px;
@@ -9,6 +9,11 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 28%;
+}
+
+.boton:hover{
+    background: #cf0e4f;
+    color: white;
 }
 
 .botonBorrar {
