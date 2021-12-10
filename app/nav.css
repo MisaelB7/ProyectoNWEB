@@ -14,7 +14,7 @@
     height: 100%;
     width: 100%;
     background: #171614;
-    clip-path: circle(25px at calc(100% - 45px) 45px);
+    clip-path: circle(0px at calc(100% - 45px) 45px);
     transition: all 0.3s ease-in-out;
   }
   #active:checked ~ .wrapper-nav{
