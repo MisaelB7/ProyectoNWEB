@@ -34,11 +34,25 @@
     margin-top: 0;
     font-size: 18px;
     width: 70%;
-    color: indigo !important;
+    color: white !important;
+    padding: 10px 0;
+    font-size: 16px;    
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
 }
 
+.item-price{
+    border-bottom: 1px solid #fff;
+}
+.shoppingCartItemTitle {
+    border-bottom: 1px solid #fff;
+}
 .item-title {
     margin-bottom: 20px;
+    
 }
 
 
