@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01",
+    "title": "Hades",
+    "price": 19.99,
+    "image": "hades.jpg"
+  },
+  {
+    "id": "02",
+    "title": "Ark",
+    "price": 59.99,
+    "image": "ark.jpg"
+  },
+  {
+    "id": "03",
+    "title": "Control",
+    "price": 19.99,
+    "image": "control.jpg"
+  },
+  {
+    "id": "04",
+    "title": "Forza Horizon 5",
+    "price": 59.99,
+    "image": "Forza.jpeg"
+  },
+  {
+    "id": "05",
+    "title": "Back4Blood",
+    "price": 59.99,
+    "image": "Back4Blood.jpeg"
+  },
+  {
+    "id": "06",
+    "title": "Little Nightmares",
+    "price": 19.99,
+    "image": "Little nightmares.jpeg"
+  },
+  {
+    "id": "07",
+    "title": "Halo Infinite",
+    "price": 59.99,
+    "image": "halo infinite.jpg"
+  },
+  {
+    "id": "08",
+    "title": "Grounded",
+    "price": 29.99,
+    "image": "Grounded.jpg"
+  },
+  {
+    "id": "09",
+    "title": "Skyrim",
+    "price": 19.99,
+    "image": "skyrim.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Ori",
+    "price": 29.99,
+    "image": "ori.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Doom Eternal",
+    "price": 23.99,
+    "image": "doom.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Battlefield 2042",
+    "price": 59.99,
+    "image": "Battlefield.jpeg"
+  }
+]
