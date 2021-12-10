@@ -29,7 +29,26 @@
     margin-top: 0;
     z-index: 3;
 }
-
+.btn-pagar,.comprarButton{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #cf0e4f;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    background: #24282f;
+    border: none;
+}
+.comprarButton:hover {
+    background: #cf0e4f;
+    color: white;
+    border-radius: 5px;
+}
 .elInput {
     z-index: 3;
     margin-top: 0;
