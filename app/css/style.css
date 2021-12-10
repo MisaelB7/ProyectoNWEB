@@ -15,7 +15,10 @@
     background: #cf0e4f;
     color: white;
 }
-
+.btn-pagar:hover{
+    background: #cf0e4f;
+    color: white;
+}
 
 .btn {
     background-color: #ffffff;
@@ -29,7 +32,7 @@
     margin-top: 0;
     z-index: 3;
 }
-.btn-pagar,.comprarButton{
+.btn-pagar,.comprarButton, .btn-pagar-modal{
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -44,7 +47,49 @@
     background: #24282f;
     border: none;
 }
+
+.btn-pagar-modal{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #cf0e4f;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    background: #24282f;
+    border: none;
+    width: 100%;
+}
+
+.emails label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+  
+.emails input:focus ~ label,
+.emails input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #cf0e4f;
+    font-size: 12px;
+}
+
 .comprarButton:hover {
+    background: #cf0e4f;
+    color: white;
+    border-radius: 5px;
+}
+.btn-pagar-modal:hover {
     background: #cf0e4f;
     color: white;
     border-radius: 5px;
@@ -80,6 +125,8 @@
     height: 175px;
 }
 
-.modal {
-    color: black;
+
+.modal-content{
+    color: #fff;
+    background-color: #24282f !important;
 }
